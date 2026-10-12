@@ -12,7 +12,12 @@ header{
     background-color:rgba(0, 0, 0, 0.178);
     border:1px rgb(29, 26, 26);
     
-}    
+}
+
+header .nome{
+    color:#FF8C42;
+    
+}
 h1{
     font-size: 50px;
     color:white;
@@ -56,9 +61,13 @@ p{
     margin-top: 50px;
     margin-left: 20px;
 }    
-.Corpo h2{
+.Corpo h1{
     margin-top: 50px;
-}    
+    color:#FF6F3C;
+}  
+.Corpo h2{
+    color:#FF8C42;
+}
 
 .Corpo p{
     margin-top: 40px; 
@@ -97,6 +106,10 @@ p{
 
 .sobre h2{
     font-size: 45px;
+    color:#FF6F3C;
+}
+.sobre h3{
+    color:#FF8C42;
 }
 
 .sobre p{
@@ -115,6 +128,12 @@ p{
     margin-left: 23%;
     border-radius: 10px;
 }
+.sobreimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 .linha2{
     background-color:rgb(255, 255, 255);
@@ -130,14 +149,14 @@ p{
     margin-top: 80px;
 }
 
-
-
-
-
-
 .projetos h2{
     font-size: 45px;
+    color:#FF6F3C;
 
+}
+
+.projetos h3{
+    color:#FF8C42;
 }
 
 .linha3{
@@ -153,6 +172,16 @@ p{
     margin-left: 20px;
     margin-top: 80px;
 }
+.contato h2{
+    
+    color:#FF6F3C;
+
+}
+
+.linkedin{
+    
+
+}
 
 
 .container {
@@ -161,70 +190,6 @@ p{
     padding: 0 20px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer{
     height:85px;
